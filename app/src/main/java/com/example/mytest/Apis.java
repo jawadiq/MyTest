@@ -1,4 +1,14 @@
 package com.example.mytest;
 
-public class Apis {
+import android.location.Location;
+import android.location.LocationListener;
+
+import androidx.annotation.NonNull;
+
+public class Apis implements LocationListener {
+
+    @Override
+    public void onLocationChanged(@NonNull Location location) {
+
+    }
 }
